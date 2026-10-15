@@ -61,6 +61,7 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
+
         <div class="container hero-container">
 
             <div class="hero-content fade-in-up">
@@ -107,6 +108,7 @@
                     </a>
 
                 </div>
+
             </div>
 
             <div class="hero-image fade-in-left">
@@ -118,6 +120,7 @@
         <a href="#about" class="scroll-down">
             <i class="fas fa-chevron-down"></i>
         </a>
+
     </section>
 
     <!-- About Section -->
@@ -164,10 +167,13 @@
                         </div>
 
                     </div>
+
                 </div>
 
             </div>
+
         </div>
+
     </section>
 
     <!-- Skills Section -->
@@ -224,7 +230,9 @@
                 </div>
 
             </div>
+
         </div>
+
     </section>
 
     <!-- Education Section -->
@@ -257,8 +265,11 @@
                     <p>2022 | Percentage: 70.8%</p>
 
                 </div>
+
             </div>
+
         </div>
+
     </section>
 
     <!-- Experience Section -->
@@ -295,8 +306,11 @@
                     </ul>
 
                 </div>
+
             </div>
+
         </div>
+
     </section>
 
     <!-- Projects Section -->
@@ -348,6 +362,7 @@
                                 rel="noopener noreferrer">
                                 <i class="fab fa-github"></i> Code
                             </a>
+
                             <a href="https://vamsidhar-reddy-81.github.io/HabitGrid/"
                                 class="btn-sm"
                                 target="_blank"
@@ -356,7 +371,9 @@
                             </a>
 
                         </div>
+
                     </div>
+
                 </article>
 
                 <!-- Personal Portfolio Project -->
@@ -403,7 +420,9 @@
                             </a>
 
                         </div>
+
                     </div>
+
                 </article>
 
                 <!-- RFID Door Locking System Project -->
@@ -435,10 +454,13 @@
                         </div>
 
                     </div>
+
                 </article>
 
             </div>
+
         </div>
+
     </section>
 
     <!-- Certifications Section -->
@@ -485,8 +507,11 @@
                     </ul>
 
                 </div>
+
             </div>
+
         </div>
+
     </section>
 
     <!-- Soft Skills and Languages -->
@@ -516,8 +541,11 @@
                     <p>English, Telugu, Hindi</p>
 
                 </div>
+
             </div>
+
         </div>
+
     </section>
 
     <!-- Contact Section -->
@@ -531,6 +559,7 @@
 
             <div class="contact-content">
 
+                <!-- Contact Information -->
                 <div class="contact-info fade-in-left">
 
                     <p class="contact-desc">
@@ -539,6 +568,7 @@
                     </p>
 
                     <div class="contact-item">
+
                         <i class="fas fa-envelope"></i>
 
                         <span>
@@ -546,47 +576,87 @@
                                 m.vamsidhar20061@gmail.com
                             </a>
                         </span>
+
                     </div>
 
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-
-                        <span>Dharmavaram, Andhra Pradesh, India</span>
-                    </div>
+                    <!-- Address removed as requested -->
 
                 </div>
 
-                <form class="contact-form fade-in-right" id="contact-form">
+                <!-- Working Contact Form -->
+                <form
+                    class="contact-form fade-in-right"
+                    id="contact-form"
+                    action="https://formsubmit.co/m.vamsidhar20061@gmail.com"
+                    method="POST">
 
+                    <!-- Email subject -->
+                    <input
+                        type="hidden"
+                        name="_subject"
+                        value="New Contact Message from Your Portfolio">
+
+                    <!-- Disable captcha if you prefer not to use it -->
+                    <!-- Keep FormSubmit's default security protection enabled -->
+
+                    <!-- Redirect after successful submission -->
+                    <input
+                        type="hidden"
+                        name="_next"
+                        value="https://vamsidhar-reddy-81.github.io/My-Portfolio/#contact">
+
+                    <!-- Name -->
                     <div class="form-group">
-                        <input type="text"
+                        <input
+                            type="text"
                             id="name"
+                            name="name"
                             placeholder="Your Name"
+                            autocomplete="name"
                             required>
                     </div>
 
+                    <!-- Visitor Email -->
                     <div class="form-group">
-                        <input type="email"
+                        <input
+                            type="email"
                             id="email"
+                            name="email"
                             placeholder="Your Email"
+                            autocomplete="email"
                             required>
                     </div>
 
+                    <!-- Message -->
                     <div class="form-group">
-                        <textarea id="message"
+                        <textarea
+                            id="message"
+                            name="message"
                             rows="5"
                             placeholder="Your Message"
                             required></textarea>
                     </div>
 
-                    <button type="submit" class="btn btn-primary">
+                    <!-- Spam prevention -->
+                    <input
+                        type="text"
+                        name="_honey"
+                        style="display:none">
+
+                    <!-- Submit Button -->
+                    <button
+                        type="submit"
+                        class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
                         Send Message
                     </button>
 
                 </form>
 
             </div>
+
         </div>
+
     </section>
 
     <!-- Footer -->
@@ -601,10 +671,12 @@
             </p>
 
         </div>
+
     </footer>
 
     <!-- JavaScript -->
     <script src="script.js"></script>
 
 </body>
+
 </html>

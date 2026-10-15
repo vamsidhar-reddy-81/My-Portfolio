@@ -630,3 +630,14 @@ h6 {
         flex-direction: column;
     }
 }
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    height: 45px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
